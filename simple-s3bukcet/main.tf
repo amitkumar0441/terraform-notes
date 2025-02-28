@@ -2,7 +2,7 @@ terraform {
   required_providers {
     aws = {
       source = "hashicorp/aws"
-      version = "5.87.0"
+      version = "5.88.0"
     }
   }
 }
@@ -12,6 +12,7 @@ provider "aws" {
   region = var.region
 }
 
-resource "aws_s3_bucket" "githubactionbucket" { 
-  bucket = "amitkumar0441githubactionbucket"
+# Create S3 bucket
+resource "aws_s3_bucket" "mys3bucket" {
+  bucket = "amitkumar0441bucket"  # Ensure the bucket name is a string
 }

@@ -4,3 +4,8 @@ Terraform-S3-Bucket/.env
 Terraform-S3-Bucket/.terraform
 Terraform-s3-public-bucket/.env
 Terraform-s3-public-bucket/.terraform
+TERRAFORM-S3-STATIC-WEBSITE/.env 
+TERRAFORM-S3-STATIC-WEBSITE/.terraform
+simple-s3bukcet/.env 
+simple-s3bukcet/.terraform
+

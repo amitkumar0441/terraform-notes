@@ -11,3 +11,5 @@
 6) # delete specific resource not all :- terraform destroy --target=<name> 
 
 7) # to delete whole content from s3 bucket before running terraform destroy command :-  aws s3 rm s3://amitkumar0441githubactionbucket --recursive
+
+8) # to overshadow yes while applying terraform apply :- you can use this command :- terraform apply -auto-approve 
